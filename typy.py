@@ -13,50 +13,54 @@
 # print(["jeden", 7.7, "dwa", "trzy", [4, 5, 6], 8.8, 9.9])  # typ lista
 #
 # imie = int("5")  # zmienna
-# # imie = "5"
+# imie = "5"
 # print(type(imie))  # sprawdzanie typu
 #
 # WIEK = 39  # to też jest zmienna
 # print(WIEK)
-#
-# lista = ["jeden", 7.7, "dwa", "trzy", [4, 5, 6], 8.8, 9.9]
-# print(type(lista))
+
+lista = ["jeden", 7.7, "dwa", "trzy", [4, 5, 6], 8.8, 9.9]
+print(type(lista))
 # print(lista[4][1])  # wycinek (lista wielowymiarowa)
 # print(lista[0:3])  # wycinek
 # print(lista[0], lista[5])
 # print(lista[-3:])  # wycinek od końca
 # lista[0] = 1  # podmiana
+# print(lista)
 # lista.append("Tomek")  # dodanie na końcu listy
-# lista.append("Tomek")  # dodanie na końcu listy
+# print(lista)
 # lista.insert(2, "Artur")  # dodanie w dany indeks
+# print(lista)
 # lista.remove("dwa")  # usunięcie po zawartości
+# print(lista)
 # lista.pop(1)  # usunięcie po indeksie
+# print(lista)
 # # lista.clear() # czyszczenie do zera
-# lista.index("trzy", 1, 5)  # sprawdzanie czy znajduję się w zakresie
+# lista.index("trzy", 1, 5)  # sprawdzanie czy znajduję się w zakresie od 1 do 5
 # print(len(lista))  # długość listy
-# # print(lista)
+# print(lista)
 # print(lista.count("Tomek"))  # ile razy występuje?
 
 liczby = [4, 66, 2, 6432, 76, 1]
 imiona = ["Tomek", "Adam", "Adamina", "Joanna"]
-print(liczby)
-liczby.sort()
-print(liczby)
-liczby.reverse()
-print(liczby)
-print(imiona)
-imiona.sort()
-print(imiona)
-imiona.reverse()
-print(imiona)
-print(min(imiona))
-print(max(imiona))
-
+# print(liczby)
+# liczby.sort()
+# print(liczby)
+# liczby.reverse()
+# print(liczby)
+# print(imiona)
+# imiona.sort()
+# print(imiona)
+# imiona.reverse()
+# print(imiona)
+# print(min(imiona))
+# print(max(imiona))
+#
 napis = "Krzysztof Kowalski"
-print(napis.count("K"))
-print(napis[0:5])
-print(napis.capitalize())
-print(napis.upper())
-print(napis, "wita...", 4, "razy")
-print(napis + " wita..." + " 4 razy")
+# print(napis.count("K"))
+# print(napis[0:5])
+# print(napis.capitalize()) # pierwsza litera duża a reszte zamień na małe
+print(napis.upper()) # zamienia na duże litery
+# print(napis, "wita...", 4, "razy")
+# print(napis + " wita..." + " 4 razy")
 
